@@ -4,5 +4,27 @@ write this at the command line to talk to your computer
 
 touch file.txt
 #creates a new file by name "file.txt" you can make "file.cpp" too
+
+
 subl . 
 #opens sublime in current directory
+
+
+######################
+##how to share code:##
+######################
+1) make sure you are in the MakeVoiceCall location in your terminal
+
+2) type: git status
+#this will show you the files you changed and what's different on the website vs your computer
+
+3)type: git add <filename1> <filename2>
+OR: git add .
+the second one adds all the files in that folder.
+this will save the changes you made to be committed to git
+
+4)type: git commit -m "i changed some files!"
+this will stage all of your changes to go online
+
+5)type: git push origin master
+this will push all of your changes online
