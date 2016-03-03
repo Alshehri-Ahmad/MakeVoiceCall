@@ -1,0 +1,8 @@
+unix/git commands
+write this at the command line to talk to your computer
+
+
+touch file.txt
+#creates a new file by name "file.txt" you can make "file.cpp" too
+subl . 
+#opens sublime in current directory
