@@ -1,0 +1,13 @@
+software schedule
+
+1)create a code base/header files for tiny lily
+	- arduino's native setup files for initializing board
+
+2)create a code base/header files for FONA
+	- fona is coded for arduino UNO
+		- change to correspond to lily pins
+	2a) fixing pin numbers in Adafruit_FONA.cpp
+	2b) fixing pin numbers in Adafruit_FONA.h
+
+3)create tinylily call methods based on FONA call examples for uno
+	- port the code
